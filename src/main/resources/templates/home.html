@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Home Page</title>
+
+<style type="text/css">
+
+	body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background: #ffffff;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #333333;
+}
+
+a.button {
+    display: block;
+    width: 200px;
+    padding: 10px 15px;
+    margin: 10px auto;
+    background-color: #007bff;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+a.button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+a.button:active {
+    background-color: #004085;
+    transform: translateY(0);
+}
+
+
+</style>
+
+</head>
+<body>
+
+	 <div class="container">
+        <h1>Home Page</h1>
+        <a href="register" class="button">Registration Page</a>
+        <a href="login" class="button">Login Page</a>
+        <a href="getall" class="button">Show All Users</a>
+        <a href="search" class="button">Search Users</a>
+        <a href="update" class="button">Update Users</a>
+    </div>
+</body>
+</html>
